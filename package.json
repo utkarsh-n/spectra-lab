@@ -1,0 +1,14 @@
+{
+  "name": "spectra-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Spectra web prototype: an electromagnetic spectrum instrument (precursor to the native app).",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "data": "node scripts/build-data.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
